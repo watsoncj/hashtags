@@ -1,0 +1,49 @@
+body {
+  font-family: 'Vollkorn', arial, serif;
+  font-size: 80%;
+  color: black;
+  margin: 35px 0;
+}
+h1 {
+  font-size: 350%;
+  padding-left: 48px;
+  background: url(/images/sociallogo_sm.jpg) no-repeat;
+  width: 252px;
+}
+h1 {
+  margin: auto;
+}
+p.tweet {
+  margin: auto;
+}
+p.tweet {
+  width: 300px;
+  clear: left;
+  padding: 25px 0;
+  border-bottom: 1px dashed black;
+}
+p.tweet span.name a {
+  text-decoration: none;
+  color: inherit;
+}
+p.tweet span.text {
+  display: block;
+}
+p.tweet a {
+  text-decoration: none;
+  color: inherit;
+}
+p.tweet img {
+  float: left;
+  width: 48px;
+  height: 48px;
+  margin: 0 5px 5px 5px;
+}
+p.button_container {
+  text-align: center;
+  padding: 35px;
+}
+button.more {
+  padding: 15px 35px;
+  font-size: 200%;
+}

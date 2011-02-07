@@ -1,0 +1,8 @@
+<p class='tweet'>
+  <% user_link = "http://twitter.com/#!/"+tweet.from_user %>
+  <% tweet_link = user_link + "/status/" + tweet.id.to_s %>
+  <%= link_to(image_tag(tweet.profile_image_url), user_link) %>
+  <span class='name'><%= link_to tweet.from_user, user_link %></span>
+  <span class='date'><%= link_to(fix_date(tweet.created_at), tweet_link) %> ago</span>
+  <span class='text'><%= link_to tweet.text, tweet_link %></span>
+</p>
